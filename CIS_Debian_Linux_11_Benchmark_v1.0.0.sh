@@ -24,10 +24,6 @@ echo "install cramfs /bin/true
 install squashfs /bin/true
 install udf /bin/true" > /etc/modprobe.d/CIS.conf
 
-
-##set_directive_fs "install udf /bin/true" "rmmod udf" /etc/modprobe.d/udf.conf       ver si jala
-
-
 ##########################################
 #1.1.2 Configure /tmp######################
 #1.1.2.1 Ensure /tmp is a separate partition (Automated)
