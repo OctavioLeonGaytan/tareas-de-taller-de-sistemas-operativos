@@ -309,7 +309,7 @@ apt purge ldap-utils
 
 apt purge rpcbind
 
-apt purge <package_name>
+#apt purge <package_name> nombre del paquete que desea descargar
 
  
 #########################################
